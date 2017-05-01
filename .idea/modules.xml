@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidView.iml" filepath="$PROJECT_DIR$/AndroidView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom_view/custom_view.iml" filepath="$PROJECT_DIR$/custom_view/custom_view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listener/listener.iml" filepath="$PROJECT_DIR$/listener/listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/motion_event/motion_event.iml" filepath="$PROJECT_DIR$/motion_event/motion_event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/touchevent_conflict/touchevent_conflict.iml" filepath="$PROJECT_DIR$/touchevent_conflict/touchevent_conflict.iml" />
+    </modules>
+  </component>
+</project>
