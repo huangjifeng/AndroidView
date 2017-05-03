@@ -1,1 +1,1 @@
-include ':motion_event', ':listener', ':custom_view', ':touchevent_conflict'
+include ':motion_event', ':listener', ':custom_view', ':touchevent_conflict', ':velocitytracker', ':scroller', ':gesturedetector'

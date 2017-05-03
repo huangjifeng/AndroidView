@@ -10,9 +10,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/custom_view" />
+            <option value="$PROJECT_DIR$/gesturedetector" />
             <option value="$PROJECT_DIR$/listener" />
             <option value="$PROJECT_DIR$/motion_event" />
+            <option value="$PROJECT_DIR$/scroller" />
             <option value="$PROJECT_DIR$/touchevent_conflict" />
+            <option value="$PROJECT_DIR$/velocitytracker" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -4,9 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidView.iml" filepath="$PROJECT_DIR$/AndroidView.iml" />
       <module fileurl="file://$PROJECT_DIR$/custom_view/custom_view.iml" filepath="$PROJECT_DIR$/custom_view/custom_view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gesturedetector/gesturedetector.iml" filepath="$PROJECT_DIR$/gesturedetector/gesturedetector.iml" />
       <module fileurl="file://$PROJECT_DIR$/listener/listener.iml" filepath="$PROJECT_DIR$/listener/listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/motion_event/motion_event.iml" filepath="$PROJECT_DIR$/motion_event/motion_event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scroller/scroller.iml" filepath="$PROJECT_DIR$/scroller/scroller.iml" />
       <module fileurl="file://$PROJECT_DIR$/touchevent_conflict/touchevent_conflict.iml" filepath="$PROJECT_DIR$/touchevent_conflict/touchevent_conflict.iml" />
+      <module fileurl="file://$PROJECT_DIR$/velocitytracker/velocitytracker.iml" filepath="$PROJECT_DIR$/velocitytracker/velocitytracker.iml" />
     </modules>
   </component>
 </project>
