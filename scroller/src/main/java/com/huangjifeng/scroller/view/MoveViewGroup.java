@@ -1,15 +1,15 @@
-package com.huangjifeng.scroller;
+package com.huangjifeng.scroller.view;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.MotionEvent;
+import android.widget.RelativeLayout;
 
-import com.huangjifeng.scroller.customviewpager.CustomViewPagerActivity;
+/**
+ * Created by Administrator on 2017/5/4.
+ */
 
-public class MainActivity extends AppCompatActivity {
-
-    /*
+   /*
     * View  类中   scroll 方法
     *
     * View中scrollBy()方法是让View相对于当前的位置滚动某段距离，而scrollTo()方法则是让View相对于初始的位置滚动某段距离。
@@ -24,20 +24,40 @@ public class MainActivity extends AppCompatActivity {
     * 某段距离，那每当我们点击一次scrollBy按钮，View的当前位置都进行了变动，因此不停点击会一直向右下方移动。
     * */
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+public class MoveViewGroup extends RelativeLayout {
+    private int lastX;
+    private int lastY;
 
+    public MoveViewGroup(Context context) {
+        super(context);
     }
 
-    public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.button_01:
-                startActivity(new Intent(MainActivity.this, CustomViewPagerActivity.class));
+    public MoveViewGroup(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        int action = event.getAction();
+        int localX = (int) event.getX();
+        int localY = (int) event.getY();
+        switch (action) {
+            case MotionEvent.ACTION_DOWN:
+                lastX = localX;
+                lastY = localY;
                 break;
-            case R.id.button_02:
+            case MotionEvent.ACTION_MOVE:
+                int offsetX = localX - lastX;
+                int offsetY = localY - lastY;
+                //layout(getLeft() + offsetX, getTop() + offsetY, getRight() + offsetX, getBottom() + offsetY);
+                scrollBy(-offsetX/10, -offsetY/10);
+                break;
+            case MotionEvent.ACTION_UP:
+                break;
+            case MotionEvent.ACTION_CANCEL:
                 break;
         }
+
+        return true;
     }
 }
