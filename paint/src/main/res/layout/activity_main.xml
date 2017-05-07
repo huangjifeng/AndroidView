@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.huangjifeng.paint.MainActivity">
+
+    <com.huangjifeng.paint.example.ProgressView
+        android:id="@+id/progress_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        app:backRoundColor="#ff0"
+        app:isShowProgress="true"
+        app:max="100"
+        app:progressRoundColor="#0ff"
+        app:progressWidth="10dp"
+        app:style="MY_STROKE"
+        app:textColor="#f00"
+        app:textSize="20" />
+</RelativeLayout>

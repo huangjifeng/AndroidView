@@ -3,10 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidView.iml" filepath="$PROJECT_DIR$/AndroidView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canvas/canvas.iml" filepath="$PROJECT_DIR$/canvas/canvas.iml" />
       <module fileurl="file://$PROJECT_DIR$/custom_view/custom_view.iml" filepath="$PROJECT_DIR$/custom_view/custom_view.iml" />
       <module fileurl="file://$PROJECT_DIR$/gesturedetector/gesturedetector.iml" filepath="$PROJECT_DIR$/gesturedetector/gesturedetector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gradient/gradient.iml" filepath="$PROJECT_DIR$/gradient/gradient.iml" />
       <module fileurl="file://$PROJECT_DIR$/listener/listener.iml" filepath="$PROJECT_DIR$/listener/listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/location/location.iml" filepath="$PROJECT_DIR$/location/location.iml" />
       <module fileurl="file://$PROJECT_DIR$/motion_event/motion_event.iml" filepath="$PROJECT_DIR$/motion_event/motion_event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paint/paint.iml" filepath="$PROJECT_DIR$/paint/paint.iml" />
       <module fileurl="file://$PROJECT_DIR$/scroller/scroller.iml" filepath="$PROJECT_DIR$/scroller/scroller.iml" />
       <module fileurl="file://$PROJECT_DIR$/touchevent_conflict/touchevent_conflict.iml" filepath="$PROJECT_DIR$/touchevent_conflict/touchevent_conflict.iml" />
       <module fileurl="file://$PROJECT_DIR$/velocitytracker/velocitytracker.iml" filepath="$PROJECT_DIR$/velocitytracker/velocitytracker.iml" />

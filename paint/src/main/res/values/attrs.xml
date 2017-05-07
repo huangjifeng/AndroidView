@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressView">
+        <attr name="backRoundColor" format="color" />
+        <attr name="progressRoundColor" format="color" />
+        <attr name="isShowProgress" format="boolean" />
+        <attr name="progressWidth" format="dimension" />
+        <attr name="max" format="integer" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="integer" />
+        <attr name="style">
+            <enum name="MY_STROKE" value="0" />
+            <enum name="FILL" value="1" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>
